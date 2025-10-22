@@ -41,4 +41,59 @@ n2 = "3";
 console.log(n1 + n2);
 
 // Continuação
-// Aula 2 - 22/10/205
+// Aula 2 - 22/10/2025
+
+// Variavel são espaços na memoria onde podemos armazenar dados
+// Regras para criar nomes de variaveis
+// 1. Não podem começar com numeros
+// 2. Não podemos usar espaços
+// 3. Não podemos usar palavras reservadas
+// 4. Javascrip é case sentive
+// 5. É comum usar o camelCase (ex: alunoNoite). 🐫
+
+//3 tipos de variaveis:
+// let - é uma variavel que pode ser reatribuida
+let numeroCelular = "(81) 9 1254-7845";
+console.log(numeroCelular);
+
+numeroCelular = "(81) 9 8964-7845";
+console.log(numeroCelular);
+
+//const - é uma variavel constante, ou seja ela não pode ser reatribuida;
+
+const nacionalidade = "Brasileira";
+console.log(nacionalidade);
+
+//nacionalidade = "Colombiana"; Não é possivel fazer isso! pois não podemos reatribuir uma const
+
+// var - NÃO É RECOMENDADA!!!
+//var conseguimos reescrever
+var endereco = "Rua da Batata";
+console.log(endereco);
+
+var endereco = "Não sei";
+console.log(endereco);
+
+var endereco = "Não sei kkkk";
+
+// tipos de dados;
+// string "" -> textos, caracteres, palavras... (dado textual)
+let nomeDoVisitante = "João Pedro Belo";
+
+//number -> Dado numerico usado para armazenar números;
+
+let quantidadeLivros = 1;
+console.log(quantidadeLivros);
+
+// boolean -> boleano é um tipo de dado que usamos para verdadeiro ou falso
+// true -> verdadeiro
+// false -> falso
+let visitanteAtivo = true;
+
+//null -> é um valor intecionalmente vazia
+let livroVisitante = null;
+console.log(livroVisitante);
+
+//  undefined -> é quando criamos uma variavel que nao passamos o valor
+let telefoneVisitante;
+console.log(telefoneVisitante);
