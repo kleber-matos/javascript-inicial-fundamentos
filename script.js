@@ -48,7 +48,7 @@ console.log(n1 + n2);
 // 1. Não podem começar com numeros
 // 2. Não podemos usar espaços
 // 3. Não podemos usar palavras reservadas
-// 4. Javascrip é case sentive
+// 4. Javascrip é case sensitive 
 // 5. É comum usar o camelCase (ex: alunoNoite). 🐫
 
 //3 tipos de variaveis:
